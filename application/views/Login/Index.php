@@ -43,7 +43,7 @@
 						<div class="icon d-flex align-items-center justify-content-center">
 							<img class="gambar" src="<?php echo base_url() . "assets/Front/images/icon.png"; ?>">
 						</div>
-						<h4 class="text-center mb-4">Silahkan, Melakukan <strong>Login</strong> Terlebih Dahulu. Testing</h4>
+						<h4 class="text-center mb-4">Silahkan, Melakukan <strong>Login</strong> Terlebih Dahulu.</h4>
 						<p><?php echo $this->session->flashdata('msg'); ?></p>
 						<form action="<?php echo site_url() . 'Login/auth' ?>" class="login-form" method="POST">
 							<div class="form-group">
